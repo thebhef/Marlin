@@ -497,9 +497,9 @@
     #define DEFAULT_Ki_LIST {   1.25,   1.25 }
     #define DEFAULT_Kd_LIST {  86.00,  86.00 }
   #else
-    #define DEFAULT_Kp 41.33
-    #define DEFAULT_Ki 2.92
-    #define DEFAULT_Kd 146.20
+    #define DEFAULT_Kp 41.78
+    #define DEFAULT_Ki 3.82
+    #define DEFAULT_Kd 114.22
   #endif
 #endif // PIDTEMP
 
@@ -538,9 +538,9 @@
 
   // ANET A8
   // original Bed + 0.3mm Heat conducting into 4mm borosilicate (PID-Autotune: M303 E-1 S60 C5):
-  #define DEFAULT_bedKp 202.45
-  #define DEFAULT_bedKi 33.54
-  #define DEFAULT_bedKd 814.67
+  #define DEFAULT_bedKp 139.59
+  #define DEFAULT_bedKi 22.49
+  #define DEFAULT_bedKd 577.52
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
